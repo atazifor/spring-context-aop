@@ -12,7 +12,9 @@ public class Main {
 
         Comment comment = new Comment();
         comment.setAuthor("Amin Taz");
-        comment.setText("First text with no AOP");
+        comment.setText("Text with AOP");
         commentService.publishComment(comment);
+        commentService.editComment(comment);
+        commentService.deleteComment(comment);
     }
 }
