@@ -14,7 +14,5 @@ public class Main {
         comment.setAuthor("Amin Taz");
         comment.setText("Text with AOP");
         commentService.publishComment(comment);
-        commentService.editComment(comment);
-        commentService.deleteComment(comment);
     }
 }
